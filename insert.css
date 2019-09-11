@@ -23,7 +23,7 @@ body {
     padding-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
     border-color:#d2d2d2;
     border-width: 5px;
     color:white;
@@ -36,6 +36,10 @@ body {
 }
 h1{
     color:white!important;
+}
+h3{
+    color:white!important;
+    text-align: center
 }
 h4 { 
  border:0 solid #fff; 

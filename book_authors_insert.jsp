@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="query.css" rel="stylesheet" id="style">
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
@@ -19,7 +20,6 @@ Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library"
 PreparedStatement ps=con.prepareStatement("insert into book_authors values(?,?)");
 ps.setInt(1,book_id);
 ps.setString(2,name);
-
 int flag=ps.executeUpdate();
 %>
 

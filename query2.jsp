@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="query.css" rel="stylesheet" id="style">
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
@@ -22,9 +23,9 @@
 				{
 						String cno=rs.getString("card_no");
 						out.println("<br/>");%>
-						<h2><%=cno %>&nbsp&nbsp&nbsp </h2>
+						<h3><%=cno %>&nbsp&nbsp&nbsp </h3>
 						
-				<% }
+				<%}
 			}
 			catch(Exception e)
 			{
